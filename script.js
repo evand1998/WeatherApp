@@ -47,7 +47,7 @@ var getCurrentConditions = (event) => {
                 <li>Temperature: ${response.main.temp}&#8457;</li>
                 <li>Humidity: ${response.main.humidity}%</li>
                 <li>Wind Speed: ${response.wind.speed} mph</li>
-                <li id="uvIndex">UV Index:</li>
+                
             </ul>`;
         // Append the results to the DOM
         $('#current-weather').html(currentWeatherHTML);
